@@ -6,18 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- !BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- !CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- !FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">   
     <title>Feliz Día</title>
 </head>
 
 <body>
     <section class="container sanValentin">
-        <div class="media">
-            <img class="d-flex mr-3" data-src="holder.js/64x64?theme=sky" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
-                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                fringilla. Donec lacinia congue felis in faucibus.
+        <h1 class="text-center mb-5">FELIZ DÍA DE SAN VALENTÍN</h1>
+        <div class="container imagen">
+            <img src="images/stich.png" class="img-fluid mb-5" alt="stich">
+            <p class="text-center">Para la niña más linda que he conocido; <strong>Niko</strong></p>
+        </div>
+
+        <div class="alert alert-danger text-center" role="alert">
+            PRESIONA ESTE BOTÓN REPETIDAS VECES PARA VER LOS DIFERENTES MENSAJES :D
+        </div>
+        <div class="container text-center p-3">
+            <button type="button" class="btn btn-danger j" onclick="sanValentin()">BOTÓN DEL AMOR</button>
+        </div>
+
+        <div class="card text-center m-3">
+            <div class="card-header">
+                HAPPY DAY!
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Nico</h5>
+                <p class="card-text" id="mensajes">No has generado ningún mensaje aún</p>
+            </div>
+            <div class="card-footer text-muted">
+                I wnat to kiss you :3
             </div>
         </div>
     </section>

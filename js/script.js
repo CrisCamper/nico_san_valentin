@@ -1,0 +1,7 @@
+const sanValentin = function() {
+
+    mensajes = []
+
+
+
+}
